@@ -45,17 +45,17 @@ export const experiences: Experience[] = [
   {
     isCurrent: true,
     isBlur: true,
-    company: 'good day :3',
-    position: 'Founding Frontend Engineer',
+    company: 'Infotech Agency',
+    position: 'Full Stack Developer',
     location: 'United States (Remote)',
-    image: '/company/promote.png',
+    image: '/company/infotech.jpg',
     description: [
       'Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.',
       'Led a comprehensive codebase refactoring initiative that improved maintainability, scalability, and development velocity across the entire platform.',
       'Integrated and optimized backend API connections, implementing efficient data fetching strategies and error handling mechanisms.',
       'Enhanced user experience and interface design through implementation of consistent design systems, accessibility standards, and performance optimizations.',
     ],
-    startDate: 'August 2025',
+    startDate: 'May 2026',
     endDate: 'Present',
     technologies: [
       {
@@ -79,9 +79,9 @@ export const experiences: Experience[] = [
         icon: <ReactIcon />,
       },
       {
-        name: 'Figma',
+        name: 'MongoDB',
         href: 'https://figma.com/',
-        icon: <Figma />,
+        icon: <MongoDB/>,
       },
       {
         name: 'Vercel',
