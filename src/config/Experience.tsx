@@ -44,10 +44,10 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     isCurrent: true,
-    isBlur: true,
+    isBlur: false,
     company: 'Infotech Agency',
     position: 'Full Stack Developer',
-    location: 'United States (Remote)',
+    location: 'New Delhi, India (On-Site)',
     image: '/company/infotech.jpg',
     description: [
       'Architected and developed the complete frontend infrastructure for the platform, a comprehensive solution for creating and managing promotional campaigns.',
@@ -104,24 +104,24 @@ export const experiences: Experience[] = [
         icon: <Bun />,
       },
     ],
-    website: '#',
-    github: '#',
+    website: 'https://infotechagency.com/',
+    github: 'https://github.com/infotech-agency',
     x: '#',
   },
   {
     isCurrent: false,
-    company: 'Upsurge Labs',
-    position: 'Backend Developer Intern',
-    location: 'Bangalore, India (On-Site)',
-    image: '/company/upsurge.png',
+    company: 'Websitoz',
+    position: 'Full Stack Developer Intern',
+    location: 'New Delhi, India (On-Site)',
+    image: '/company/websitoz.jpg',
     description: [
       'Backend development for *Bhindi.io*, a flagship product of Upsurge Labs, focusing on core infrastructure and agent development.',
       'Engineered and deployed multiple high-performance agents, enhancing product capabilities and user experience.',
       'Testing agent functionality, authentication, automation, and system stability.',
       'Streamlined development workflows by optimizing internal tools and maintaining detailed technical documentation.',
     ],
-    startDate: 'June 2025',
-    endDate: 'July 2025',
+    startDate: 'Oct 2025',
+    endDate: 'Mar 2025',
     technologies: [
       {
         name: 'NestJS',
