@@ -22,10 +22,10 @@ import { Project } from '@/types/project';
 
 export const projects: Project[] = [
   {
-    title: 'NotesBuddy',
+    title: 'Lonestar academy',
     description:
       'A comprehensive study platform with notes, flashcards, quizzes, AI chatbot, and interactive learning tools',
-    image: '/project/notesbuddy.png',
+    image: '/project/lonestar.png',
     video: 'https://ik.imagekit.io/hokb3mrdr/notesbuddy.mp4?tr=orig',
     link: 'https://notesbuddy.in',
     technologies: [
