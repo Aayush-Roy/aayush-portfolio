@@ -1,5 +1,6 @@
 import Appwrite from '@/components/technologies/Appwrite';
 import Bun from '@/components/technologies/Bun';
+import Cloudinary from '@/components/technologies/Cloudinary';
 import ExpressJs from '@/components/technologies/ExpressJs';
 import Github from '@/components/technologies/Github';
 import Hostinger from '@/components/technologies/Hostinger';
@@ -27,8 +28,9 @@ export const projects: Project[] = [
     description:
       'Developed a custom institutional website for Lonestar Academy using Next.js, Node.js, Express.js, MongoDB, Cloudinary, and Hostinger VPS. Built a fully dynamic custom CMS with an Admin Dashboard that enables administrators to manage the entire website without developer intervention. Implemented features for creating and managing courses with pricing, duration, descriptions, curriculum, images, and blogs, along with a centralized enquiry management system. Developed a complete student enrollment workflow with secure document uploads (ID proofs, educational certificates, and other supporting documents), integrated online payment gateway for course enrollments, and used Cloudinary for optimized media and document storage. Deployed and configured the backend on Hostinger VPS, delivering a scalable, secure, and easy-to-manage platform.',
     image: '/project/lone.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/notesbuddy.mp4?tr=orig',
-    link: 'https://notesbuddy.in',
+    // video: 'https://ik.imagekit.io/hokb3mrdr/notesbuddy.mp4?tr=orig',
+    video:"/project/videos/lonestarrecording.mp4",
+    link: 'https://www.lonestaracademy.in/',
     technologies: [
       { name: 'Next.js', icon: <NextJs key="nextjs" /> },
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
@@ -36,7 +38,8 @@ export const projects: Project[] = [
       { name: 'Vercel', icon: <Vercel key="vercel" /> },
       { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
+      // { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
+      {name:"Cloudinary", icon:<Cloudinary key="cloudinary"/>},
       // { name: 'MDX', icon: <MDXIcon key="mdx" /> },
       {name:"Hostinger", icon:<Hostinger key="hostinger"/>}
     ],

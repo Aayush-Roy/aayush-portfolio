@@ -1,9 +1,11 @@
 import AWS from '@/components/technologies/AWS';
 import BootStrap from '@/components/technologies/BootStrap';
 import Bun from '@/components/technologies/Bun';
+import Cloudinary from '@/components/technologies/Cloudinary';
 import CSS from '@/components/technologies/CSS';
 import ExpressJs from '@/components/technologies/ExpressJs';
 import Figma from '@/components/technologies/Figma';
+import Hostinger from '@/components/technologies/Hostinger';
 import Html from '@/components/technologies/Html';
 import JavaScript from '@/components/technologies/JavaScript';
 import MongoDB from '@/components/technologies/MongoDB';
@@ -89,9 +91,9 @@ export const experiences: Experience[] = [
         icon: <Vercel />,
       },
       {
-        name: 'AWS',
-        href: 'https://aws.amazon.com/',
-        icon: <AWS />,
+        name: 'Hostinger',
+        href: 'https://hostinger.com/',
+        icon: <Hostinger/>,
       },
       {
         name: 'Postman',
@@ -99,9 +101,9 @@ export const experiences: Experience[] = [
         icon: <Postman />,
       },
       {
-        name: 'Bun',
-        href: 'https://bun.sh/',
-        icon: <Bun />,
+        name: 'Cloudinary',
+        href: 'https://cloudinary.com/',
+        icon: <Cloudinary />,
       },
     ],
     website: 'https://infotechagency.com/',
