@@ -48,7 +48,7 @@ export const projects: Project[] = [
     title: 'Appwrite MCP Server',
     description:
       'Model Context Protocol server for seamless Appwrite database operations with 7 powerful tools and 99.9% success rate',
-    image: '/project/rajasthan.png',
+    image: '/project/arn_rajasthan.png',
     video: 'https://ik.imagekit.io/hokb3mrdr/appwrite.mp4',
     link: 'https://mcp.ramx.in/',
     technologies: [
