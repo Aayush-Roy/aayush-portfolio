@@ -2,6 +2,7 @@ import Appwrite from '@/components/technologies/Appwrite';
 import Bun from '@/components/technologies/Bun';
 import ExpressJs from '@/components/technologies/ExpressJs';
 import Github from '@/components/technologies/Github';
+import Hostinger from '@/components/technologies/Hostinger';
 import MDXIcon from '@/components/technologies/MDXIcon';
 import MongoDB from '@/components/technologies/MongoDB';
 import Motion from '@/components/technologies/Motion';
@@ -36,7 +37,8 @@ export const projects: Project[] = [
       { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
       { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
-      { name: 'MDX', icon: <MDXIcon key="mdx" /> },
+      // { name: 'MDX', icon: <MDXIcon key="mdx" /> },
+      {name:"Hostinger", icon:<Hostinger key="hostinger"/>}
     ],
     github: 'https://github.com/ramxcodes/notesbuddy',
     live: 'https://notesbuddy.in',
