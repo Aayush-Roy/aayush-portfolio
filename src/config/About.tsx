@@ -10,9 +10,14 @@ import PostgreSQL from '@/components/technologies/PostgreSQL';
 import Prisma from '@/components/technologies/Prisma';
 import ReactIcon from '@/components/technologies/ReactIcon';
 import TypeScript from '@/components/technologies/TypeScript';
-import ReactNative from './ReactNative';
+
 import Cplusplus from '@/components/technologies/Cplusplus';
 import SocketIo from '@/components/technologies/SocketIo';
+import Redux from '@/components/technologies/Redux';
+import Git from '@/components/technologies/Git';
+import Github from '@/components/svgs/Github';
+import GitHubActions from '@/components/technologies/GithubActions';
+import Supabase from '@/components/technologies/Supabase';
 
 export const mySkills = [
   <ReactIcon key="react" />,
@@ -27,7 +32,14 @@ export const mySkills = [
   <GraphQL key="graphql"/>,
   <GSAP key="gsap"/>,
   <Cplusplus key="cpp"/>,
-  <SocketIo key="socket"/>
+  <SocketIo key="socket"/>,
+  <Redux key="redux"/>,
+  <Git key="git"/>,
+  <Github key="github"/>,
+  <GitHubActions key="actions"/>,
+  <Supabase key="supabase"/>
+  
+
  
 ];
 
