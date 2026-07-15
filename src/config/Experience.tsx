@@ -15,7 +15,9 @@ import NodeJs from '@/components/technologies/NodeJs';
 import PostgreSQL from '@/components/technologies/PostgreSQL';
 import Postman from '@/components/technologies/Postman';
 import Prisma from '@/components/technologies/Prisma';
+import Razorpay from '@/components/technologies/Razorpay';
 import ReactIcon from '@/components/technologies/ReactIcon';
+import Redis from '@/components/technologies/Redis';
 import TailwindCss from '@/components/technologies/TailwindCss';
 import TypeScript from '@/components/technologies/TypeScript';
 import Vercel from '@/components/technologies/Vercel';
@@ -116,12 +118,13 @@ export const experiences: Experience[] = [
     position: 'Full Stack Developer Intern',
     location: 'New Delhi, India (On-Site)',
     image: '/company/websitoz.jpg',
-    description: [
-      'Backend development for *Bhindi.io*, a flagship product of Upsurge Labs, focusing on core infrastructure and agent development.',
-      'Engineered and deployed multiple high-performance agents, enhancing product capabilities and user experience.',
-      'Testing agent functionality, authentication, automation, and system stability.',
-      'Streamlined development workflows by optimizing internal tools and maintaining detailed technical documentation.',
-    ],
+   description: [
+    'Built a full-featured e-commerce platform from scratch using the MERN stack, integrating Cloudinary for media management and Redis for caching.',
+    'Developed a CMS-based admin dashboard for product listing, order management, and sales analytics, with Chart.js visualizations for month-wise order trends, customer spend, and purchase history.',
+    'Optimized platform performance after scaling to 5,000+ products by implementing cursor-based pagination and Redis caching with cache invalidation, significantly reducing response times.',
+    'Integrated Razorpay for secure payment processing and handled the complete development lifecycle from architecture to deployment.',
+    'Handled multiple client projects end-to-end, delivering full-stack solutions tailored to individual business requirements.',
+  ],
     startDate: 'Oct 2025',
     endDate: 'Mar 2026',
     technologies: [
@@ -149,6 +152,16 @@ export const experiences: Experience[] = [
         name: 'MongoDB',
         href: 'https://expressjs.com/',
         icon: <MongoDB />,
+      },
+       {
+        name: 'Redis',
+        href: 'https://expressjs.com/',
+        icon: <Redis />,
+      },
+       {
+        name: 'Razorpay',
+        href: 'https://expressjs.com/',
+        icon: <Razorpay/>,
       },
         {
         name: 'NodeJs',
