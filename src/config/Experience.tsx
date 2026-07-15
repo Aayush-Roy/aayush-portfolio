@@ -5,6 +5,7 @@ import Cloudinary from '@/components/technologies/Cloudinary';
 import CSS from '@/components/technologies/CSS';
 import ExpressJs from '@/components/technologies/ExpressJs';
 import Figma from '@/components/technologies/Figma';
+import GSAP from '@/components/technologies/GSAP';
 import Hostinger from '@/components/technologies/Hostinger';
 import Html from '@/components/technologies/Html';
 import JavaScript from '@/components/technologies/JavaScript';
@@ -167,6 +168,11 @@ export const experiences: Experience[] = [
         name: 'NodeJs',
         href: 'https://expressjs.com/',
         icon: <NodeJs />,
+      },
+      {
+        name: 'GSAP',
+        href: 'https://expressjs.com/',
+        icon: <GSAP />,
       },
     ],
     website: 'https://bhindi.io',
