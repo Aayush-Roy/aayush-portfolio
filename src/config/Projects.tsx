@@ -72,7 +72,7 @@ export const projects: Project[] = [
     title: 'Syncify',
     description:
       'Real-time music streaming platform with synchronized playback, live chat, and social listening features',
-    image: '/project/syncify.png',
+    image: '/project/thailand.png',
     video: 'https://ik.imagekit.io/hokb3mrdr/syncify.mp4',
     link: 'https://syncify.rocks',
     technologies: [
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     title: 'Pasandida Aurat',
     description:
       'Innovative dating platform featuring anonymous questions and authentic connections - currently in development',
-    image: '/project/pasandida.png',
+    image: '/project/websitoz.png',
     video: 'https://ik.imagekit.io/hokb3mrdr/pasandida.mp4',
     link: 'https://www.pasandidaurat.com/',
     technologies: [
