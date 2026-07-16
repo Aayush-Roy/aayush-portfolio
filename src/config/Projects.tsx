@@ -3,6 +3,7 @@ import Bun from '@/components/technologies/Bun';
 import Cloudinary from '@/components/technologies/Cloudinary';
 import ExpressJs from '@/components/technologies/ExpressJs';
 import Github from '@/components/technologies/Github';
+import GSAP from '@/components/technologies/GSAP';
 import Hostinger from '@/components/technologies/Hostinger';
 import MDXIcon from '@/components/technologies/MDXIcon';
 import MongoDB from '@/components/technologies/MongoDB';
@@ -13,6 +14,7 @@ import NodeJs from '@/components/technologies/NodeJs';
 import PostgreSQL from '@/components/technologies/PostgreSQL';
 import Prisma from '@/components/technologies/Prisma';
 import ReactIcon from '@/components/technologies/ReactIcon';
+import Redis from '@/components/technologies/Redis';
 import Sanity from '@/components/technologies/Sanity';
 import Shadcn from '@/components/technologies/Shadcn';
 import SocketIo from '@/components/technologies/SocketIo';
@@ -111,7 +113,7 @@ export const projects: Project[] = [
     isWorking: false, // Currently in development
   },
   {
-    title: 'The Quest',
+    title: 'Sohwais',
     description:
       'Personal challenge tracker for completing 500 DSA problems, earning ₹300,000, and improving fitness within 6 months',
     image: '/project/sohwais.png',
@@ -120,10 +122,14 @@ export const projects: Project[] = [
     technologies: [
       { name: 'Next.js', icon: <NextJs key="nextjs" /> },
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'Vercel', icon: <Vercel key="vercel" /> },
+      { name: 'Hostinger', icon: <Hostinger key="hostinger" /> },
       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'MDX', icon: <MDXIcon key="mdx" /> },
-      { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
+      // { name: 'MDX', icon: <MDXIcon key="mdx" /> },
+      { name: 'ExpressJs', icon: <ExpressJs key="express" /> },
+      { name: 'NodeJs', icon: <NodeJs key="nodejs" /> },
+      { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
+      { name: 'GSAP', icon: <GSAP key="gsap" /> },
+      { name: 'Redis', icon: <Redis key="redis" /> },
     ],
     github: 'https://github.com/ramxcodes/the-quest',
     live: 'https://quest.ramx.in/',
@@ -135,7 +141,7 @@ export const projects: Project[] = [
     title: 'FestX',
     description:
       "Comprehensive event management platform for college festivals and hackathons built for NMIMS'24 Hackathon",
-    image: '/project/festx.png',
+    image: '/project/refokus.png',
     video: 'https://ik.imagekit.io/hokb3mrdr/fest-x.mp4',
     link: 'https://fest-x.ramx.in/',
     technologies: [
@@ -153,18 +159,19 @@ export const projects: Project[] = [
     isWorking: true,
   },
   {
-    title: "I'm a chill guy",
+    title: "Meetzy",
     description:
       'AI-powered GitHub profile roaster with intelligent analysis, witty commentary, and social sharing features',
-    image: '/project/chillguy.png',
+    image: '/project/meetzy.png',
     link: 'https://chillguy.ramx.in',
     technologies: [
       { name: 'React', icon: <ReactIcon key="react" /> },
       { name: 'Express.js', icon: <ExpressJs key="expressjs" /> },
       { name: 'Vercel', icon: <Vercel key="vercel" /> },
       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'Netlify', icon: <Netlify key="netlify" /> },
-      { name: 'GitHub', icon: <Github key="github" /> },
+      // { name: 'GitHub', icon: <Github key="github" /> },
+      { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
+      { name: 'SocketIo', icon: <SocketIo key="socket" /> },
     ],
     github: 'https://github.com/ramxcodes/chill-guy',
     live: 'https://chillguy.ramx.in',
@@ -180,11 +187,11 @@ export const projects: Project[] = [
     video: 'https://ik.imagekit.io/hokb3mrdr/ramspace.mp4',
     link: 'https://blog.ramx.in/',
     technologies: [
-      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
       { name: 'React', icon: <ReactIcon key="react" /> },
+
       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'MDX', icon: <MDXIcon key="mdx" /> },
+      
     ],
     live: 'https://blog.ramx.in/',
     details: true,
