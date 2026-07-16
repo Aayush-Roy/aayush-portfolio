@@ -114,7 +114,7 @@ export const projects: Project[] = [
     title: 'The Quest',
     description:
       'Personal challenge tracker for completing 500 DSA problems, earning ₹300,000, and improving fitness within 6 months',
-    image: '/project/quest.png',
+    image: '/project/sohwais.png',
     video: 'https://ik.imagekit.io/hokb3mrdr/quest.mp4',
     link: 'https://quest.ramx.in/',
     technologies: [
