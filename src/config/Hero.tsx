@@ -35,6 +35,7 @@ import NodeJs from '@/components/technologies/NodeJs';
 import PostgreSQL from '@/components/technologies/PostgreSQL';
 import Prisma from '@/components/technologies/Prisma';
 import ReactIcon from '@/components/technologies/ReactIcon';
+import Redis from '@/components/technologies/Redis';
 // Technology Components
 import TypeScript from '@/components/technologies/TypeScript';
 
@@ -43,12 +44,14 @@ export const skillComponents = {
   TypeScript: TypeScript,
   ReactIcon: ReactIcon,
   NextJs: NextJs,
-  Bun: Bun,
+  // Bun: Bun,
   PostgreSQL: PostgreSQL,
   NodeJs: NodeJs,
   MongoDB: MongoDB,
   Prisma: Prisma,
   JavaScript: JavaScript,
+  Redis:Redis,
+
 };
 
 export const heroConfig = {
@@ -58,7 +61,39 @@ export const heroConfig = {
   avatar: '/assets/logo.png',
 
   // Skills Configuration
-  skills: [
+  // skills: [
+  //   {
+  //     name: 'Typescript',
+  //     href: 'https://www.typescriptlang.org/',
+  //     component: 'TypeScript',
+  //   },
+  //   {
+  //     name: 'React',
+  //     href: 'https://react.dev/',
+  //     component: 'ReactIcon',
+  //   },
+  //   {
+  //     name: 'Next.js',
+  //     href: 'https://nextjs.org/',
+  //     component: 'NextJs',
+  //   },
+  //   // {
+  //   //   name: 'Bun',
+  //   //   href: 'https://bun.sh/',
+  //   //   component: 'Bun',
+  //   // },
+  //   {
+  //     name: 'PostgreSQL',
+  //     href: 'https://www.postgresql.org/',
+  //     component: 'PostgreSQL',
+  //   },
+  //   {
+  //     name: 'Redis',
+  //     href: 'https://www.postgresql.org/',
+  //     component: 'Redis',
+  //   },
+  // ],
+skills: [
     {
       name: 'Typescript',
       href: 'https://www.typescriptlang.org/',
@@ -75,23 +110,40 @@ export const heroConfig = {
       component: 'NextJs',
     },
     {
-      name: 'Bun',
-      href: 'https://bun.sh/',
-      component: 'Bun',
+      name: 'Node.js',
+      href: 'https://nodejs.org/',
+      component: 'NodeJs',
+    },
+    {
+      name: 'MongoDB',
+      href: 'https://www.mongodb.com/',
+      component: 'MongoDB',
     },
     {
       name: 'PostgreSQL',
       href: 'https://www.postgresql.org/',
       component: 'PostgreSQL',
     },
+    {
+      name: 'Redis',
+      href: 'https://redis.io/',
+      component: 'Redis',
+    },
+    {
+      name: 'Prisma',
+      href: 'https://www.prisma.io/',
+      component: 'Prisma',
+    },
   ],
-
   // Description Configuration
-  description: {
+  // description: {
+  //   template:
+  //     'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3} and {skills:4}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
+  // },
+description: {
     template:
-      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3} and {skills:4}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
+      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3}, {skills:4}, {skills:5}, {skills:6} and {skills:7}. With a focus on <b>scalable systems</b> and <b>UI</b> design. Actively contributing to <b>open source</b> and open for <b>freelancing</b> projects.',
   },
-
   // Buttons Configuration
   buttons: [
     {
@@ -109,7 +161,18 @@ export const heroConfig = {
   ],
 };
 
-// Social Links Configuration
+
+
+
+
+
+
+
+
+
+
+
+
 export const socialLinks = [
   {
     name: 'X',
