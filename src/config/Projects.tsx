@@ -3,6 +3,7 @@ import Bun from '@/components/technologies/Bun';
 import Cloudinary from '@/components/technologies/Cloudinary';
 import ExpressJs from '@/components/technologies/ExpressJs';
 import Github from '@/components/technologies/Github';
+import GraphQL from '@/components/technologies/GraphQL';
 import GSAP from '@/components/technologies/GSAP';
 import Hostinger from '@/components/technologies/Hostinger';
 import MDXIcon from '@/components/technologies/MDXIcon';
@@ -18,6 +19,7 @@ import Redis from '@/components/technologies/Redis';
 import Sanity from '@/components/technologies/Sanity';
 import Shadcn from '@/components/technologies/Shadcn';
 import SocketIo from '@/components/technologies/SocketIo';
+import Supabase from '@/components/technologies/Supabase';
 import TailwindCss from '@/components/technologies/TailwindCss';
 import ThreeJs from '@/components/technologies/ThreeJs';
 import TypeScript from '@/components/technologies/TypeScript';
@@ -180,16 +182,19 @@ export const projects: Project[] = [
     isWorking: true,
   },
   {
-    title: "Ram's Space",
+    title: "Social Sphere",
     description:
       'Personal poetry and blog platform featuring emotional stories, poems, and creative writing with dark/light theme support',
-    image: '/project/ramspace.png',
+    image: '/project/socialsphere.png',
     video: 'https://ik.imagekit.io/hokb3mrdr/ramspace.mp4',
     link: 'https://blog.ramx.in/',
     technologies: [
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'React', icon: <ReactIcon key="react" /> },
-
+      { name: 'NextJS', icon: <NextJs key="next" /> },
+       { name: 'PostgreSQL', icon: <PostgreSQL key="postgres" /> },
+       { name: 'Supabase', icon: <Supabase key="supabase" /> },
+        { name: 'GraphQL', icon: <GraphQL key="graphql" /> },
+         { name: 'ExpressJs', icon: <ExpressJs key="express" /> },
       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
       
     ],
@@ -199,10 +204,10 @@ export const projects: Project[] = [
     isWorking: true,
   },
   {
-    title: 'Intent JS',
+    title: 'The Baby Care Services',
     description:
       'Modern JavaScript library website with advanced animations, interactive playground, and comprehensive documentation',
-    image: '/project/intent.png',
+    image: '/project/nanny.png',
     video: 'https://ik.imagekit.io/hokb3mrdr/intent.mp4',
     link: 'https://intent-js.ramx.in',
     technologies: [
