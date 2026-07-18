@@ -59,7 +59,7 @@ export const projects: Project[] = [
   'Royal-heritage traditional clothing e-commerce platform with an admin dashboard for products, orders, coupons, and enquiries',
     image: '/project/sohwais.png',
     video: '/project/videos/sohwais.mp4',
-    link: 'https://quest.ramx.in/',
+    link: 'https://sohwais.com/',
     technologies: [
       { name: 'Next.js', icon: <NextJs key="nextjs" /> },
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
@@ -77,6 +77,24 @@ export const projects: Project[] = [
     details: true,
     projectDetailsPageSlug: '/projects/sohwais',
     isWorking: true,
+  },
+   {
+    title: 'Websitoz',
+    description:
+  'Redesigned my first company website with stunning, animated UI components as a Full Stack Developer Intern',
+    image: '/project/websitoz.png',
+    video: 'https://ik.imagekit.io/hokb3mrdr/pasandida.mp4',
+    link: 'https://websitoz.in/',
+    technologies: [
+      { name: 'React.js', icon: <ReactIcon key="react" /> },
+      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+      {name:"GSAP", icon:<GSAP key="gsap"/>}
+    ],
+    live: 'https://websitoz.in/',
+    details: true,
+    projectDetailsPageSlug: '/projects/websitoz',
+    isWorking: true, // Currently in development
   },
   {
     title: 'ARN Holidays (Rajasthan)',
@@ -119,26 +137,7 @@ export const projects: Project[] = [
     projectDetailsPageSlug: '/projects/arn_thailand',
     isWorking: true,
   },
-  {
-    title: 'Pasandida Aurat',
-    description:
-      'Innovative dating platform featuring anonymous questions and authentic connections - currently in development',
-    image: '/project/websitoz.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/pasandida.mp4',
-    link: 'https://www.pasandidaurat.com/',
-    technologies: [
-      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'Prisma', icon: <Prisma key="prisma" /> },
-      { name: 'PostgreSQL', icon: <PostgreSQL key="postgresql" /> },
-      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'Socket.io', icon: <SocketIo key="socketio" /> },
-    ],
-    live: 'https://www.pasandidaurat.com/',
-    details: true,
-    projectDetailsPageSlug: '/projects/pasandida-aurat',
-    isWorking: false, // Currently in development
-  },
+ 
  
   {
     title: 'FestX',
