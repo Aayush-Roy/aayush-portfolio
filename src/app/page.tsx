@@ -20,7 +20,7 @@ export default function page() {
       <Github />
       {/* <Blog /> */}
       <CTA />
-      <Setup />
+      {/* <Setup /> */}
       <Journey />
     </Container>
   );
