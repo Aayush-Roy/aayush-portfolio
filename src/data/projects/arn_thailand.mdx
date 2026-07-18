@@ -1,0 +1,46 @@
+---
+title: 'ARN Holidays Thailand Tour Package'
+description: 'Lead-generation landing page for a Thailand tour package client, with an SMTP-powered enquiry form.'
+image: '/project/thailand.png'
+technologies:
+  ['React', 'Node.js', 'Express', 'MongoDB', 'Nodemailer']
+github: ''
+live: ''
+timeline: ''
+role: 'Full Stack Developer'
+team: 'Solo'
+status: 'Completed'
+featured: true
+challenges: ['Lead Capture Form', 'Email Delivery', 'Client-Facing UI']
+learnings: ['Nodemailer Integration', 'Form-to-Email Pipelines', 'Client Landing Page Design']
+isPublished: true
+---
+
+## Overview
+
+A landing page built for a client (**ARN Holidays**) to promote their Thailand tour packages and generate leads. The frontend is built in **React**, with a simple enquiry form that sends visitor details straight to the owner's inbox — no dashboard or database needed, just a clean, direct pipeline from visitor to client.
+
+## Key Features
+
+### **What I built**
+
+- **Landing Page UI**: A visually appealing, travel-themed landing page showcasing the Thailand tour package.
+- **Enquiry Form**: A simple lead-capture form for visitors to submit their details and travel interest.
+- **Email Delivery**: Form submissions are sent directly to the client's email via **Nodemailer**, so no lead is missed.
+
+## Tech Breakdown
+
+### **Frontend**
+
+- Built with **React** for a fast, responsive landing page experience.
+
+### **Backend**
+
+```typescript
+// Simple form-to-email flow
+POST /api/enquiry - Receives form data and sends it via Nodemailer
+```
+
+- **Node.js + Express** backend handling the form submission.
+- **MongoDB** for storing enquiry records.
+- **Nodemailer (SMTP)** to deliver form submissions directly to the client's inbox.
