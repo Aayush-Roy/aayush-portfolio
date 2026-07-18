@@ -89,6 +89,11 @@ export const experiences: Experience[] = [
         icon: <MongoDB/>,
       },
       {
+        name: 'ExpressJs',
+        href: 'https://figma.com/',
+        icon: <ExpressJs/>,
+      },
+      {
         name: 'Vercel',
         href: 'https://vercel.com/',
         icon: <Vercel />,
@@ -111,7 +116,7 @@ export const experiences: Experience[] = [
     ],
     website: 'https://infotechagency.com/',
     github: 'https://github.com/infotech-agency',
-    x: '#',
+    // x: '#',
   },
   {
     isCurrent: false,
@@ -175,10 +180,10 @@ export const experiences: Experience[] = [
         icon: <GSAP />,
       },
     ],
-    website: 'https://bhindi.io',
-    github: 'https://github.com/upsurgeio',
-    x: 'https://x.com/upsurgelabs',
-    linkedin: 'https://www.linkedin.com/company/upsurge-labs-pte-ltd',
+    website: 'https://websitoz.in/',
+    // github: 'https://github.com/upsurgeio',
+    // x: 'https://x.com/upsurgelabs',
+    linkedin: 'https://www.linkedin.com/company/websitoz/',
   },
   // {
   //   isCurrent: false,

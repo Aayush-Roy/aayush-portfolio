@@ -50,11 +50,11 @@ export const projects: Project[] = [
     github: 'https://github.com/ramxcodes/notesbuddy',
     live: 'https://notesbuddy.in',
     details: true,
-    projectDetailsPageSlug: '/projects/notesbuddy',
+    projectDetailsPageSlug: '/projects/lonestar',
     isWorking: true,
   },
   {
-    title: 'Appwrite MCP Server',
+    title: 'ARN Holidays (Rajasthan)',
     description:
       'Model Context Protocol server for seamless Appwrite database operations with 7 powerful tools and 99.9% success rate',
     image: '/project/arn_rajasthan.png',
@@ -69,16 +69,16 @@ export const projects: Project[] = [
     github: 'https://github.com/ramxcodes/mcp-server',
     live: 'https://mcp.ramx.in/',
     details: true,
-    projectDetailsPageSlug: '/projects/appwrite-mcp-server',
+    projectDetailsPageSlug: '/projects/arn_rajasthan',
     isWorking: true,
   },
   {
-    title: 'Syncify',
+    title: 'ARN Holidays (Thailand)',
     description:
       'Real-time music streaming platform with synchronized playback, live chat, and social listening features',
     image: '/project/thailand.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/syncify.mp4',
-    link: 'https://syncify.rocks',
+    // video: 'https://ik.imagekit.io/hokb3mrdr/syncify.mp4',
+    link: 'https://thailandtourpackage.arnholidays.com/',
     technologies: [
       { name: 'React', icon: <ReactIcon key="react" /> },
       { name: 'Node.js', icon: <NodeJs key="nodejs" /> },
