@@ -101,7 +101,7 @@ export const projects: Project[] = [
     description:
       'Model Context Protocol server for seamless Appwrite database operations with 7 powerful tools and 99.9% success rate',
     image: '/project/arn_rajasthan.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/appwrite.mp4',
+    // video: 'https://ik.imagekit.io/hokb3mrdr/appwrite.mp4',
     link: 'https://mcp.ramx.in/',
     technologies: [
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
@@ -140,11 +140,11 @@ export const projects: Project[] = [
  
  
   {
-    title: 'FestX',
+    title: 'Refokus',
     description:
       "Comprehensive event management platform for college festivals and hackathons built for NMIMS'24 Hackathon",
     image: '/project/refokus.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/fest-x.mp4',
+    // video: 'https://ik.imagekit.io/hokb3mrdr/fest-x.mp4',
     link: 'https://fest-x.ramx.in/',
     technologies: [
       { name: 'Next.js', icon: <NextJs key="nextjs" /> },
@@ -186,7 +186,7 @@ export const projects: Project[] = [
     description:
       'Personal poetry and blog platform featuring emotional stories, poems, and creative writing with dark/light theme support',
     image: '/project/socialsphere.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/ramspace.mp4',
+    // video: 'https://ik.imagekit.io/hokb3mrdr/ramspace.mp4',
     link: 'https://blog.ramx.in/',
     technologies: [
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
@@ -208,7 +208,7 @@ export const projects: Project[] = [
     description:
       'Modern JavaScript library website with advanced animations, interactive playground, and comprehensive documentation',
     image: '/project/nanny.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/intent.mp4',
+    // video: 'https://ik.imagekit.io/hokb3mrdr/intent.mp4',
     link: 'https://intent-js.ramx.in',
     technologies: [
       { name: 'Next.js', icon: <NextJs key="nextjs" /> },
@@ -224,63 +224,63 @@ export const projects: Project[] = [
     projectDetailsPageSlug: '/projects/intent-js',
     isWorking: true,
   },
-  {
-    title: 'Moonstone 2K25',
-    description:
-      "Official website for Medicaps University's premier annual college festival with event management and registration",
-    image: '/project/moonstone.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/moonstone.mp4',
-    link: 'https://moonstone.ramx.in/',
-    technologies: [
-      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'React', icon: <ReactIcon key="react" /> },
-      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'Motion', icon: <Motion key="motion" /> },
-      { name: 'Three.js', icon: <ThreeJs key="threejs" /> },
-      { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
-    ],
-    github: 'https://github.com/ramxcodes/moonstone-fest',
-    live: 'https://moonstone.ramx.in/',
-    details: true,
-    projectDetailsPageSlug: '/projects/moonstone-fest',
-    isWorking: true,
-  },
-  {
-    title: 'Valorant Remastered',
-    description:
-      'Gaming website with immersive 3D animations, agent showcases, and performance-optimized Valorant experience',
-    image: '/project/valorant.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/valorant.mp4',
-    link: 'https://valorant.ramx.in',
-    technologies: [
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'React', icon: <ReactIcon key="react" /> },
-    ],
-    github: 'https://github.com/ramxcodes/valorant-remastered',
-    live: 'https://valorant.ramx.in',
-    details: true,
-    projectDetailsPageSlug: '/projects/valorant-remastered',
-    isWorking: true,
-  },
-  {
-    title: 'That Startup',
-    description:
-      'Startup listing and pitching platform where entrepreneurs can submit ideas, vote on concepts, and connect with founders',
-    image: '/project/that-startup.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/that-startup.mp4',
-    link: 'https://that-startup.ramx.in/',
-    technologies: [
-      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'Sanity', icon: <Sanity key="sanity" /> },
-      { name: 'Vercel', icon: <Vercel key="vercel" /> },
-    ],
-    github: 'https://github.com/ramxcodes/that-startup',
-    live: 'https://that-startup.ramx.in/',
-    details: true,
-    projectDetailsPageSlug: '/projects/that-startup',
-    isWorking: true,
-  },
+  // {
+  //   title: 'Moonstone 2K25',
+  //   description:
+  //     "Official website for Medicaps University's premier annual college festival with event management and registration",
+  //   image: '/project/moonstone.png',
+  //   video: 'https://ik.imagekit.io/hokb3mrdr/moonstone.mp4',
+  //   link: 'https://moonstone.ramx.in/',
+  //   technologies: [
+  //     { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+  //     { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+  //     { name: 'React', icon: <ReactIcon key="react" /> },
+  //     { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+  //     { name: 'Motion', icon: <Motion key="motion" /> },
+  //     { name: 'Three.js', icon: <ThreeJs key="threejs" /> },
+  //     { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
+  //   ],
+  //   github: 'https://github.com/ramxcodes/moonstone-fest',
+  //   live: 'https://moonstone.ramx.in/',
+  //   details: true,
+  //   projectDetailsPageSlug: '/projects/moonstone-fest',
+  //   isWorking: true,
+  // },
+  // {
+  //   title: 'Valorant Remastered',
+  //   description:
+  //     'Gaming website with immersive 3D animations, agent showcases, and performance-optimized Valorant experience',
+  //   image: '/project/valorant.png',
+  //   video: 'https://ik.imagekit.io/hokb3mrdr/valorant.mp4',
+  //   link: 'https://valorant.ramx.in',
+  //   technologies: [
+  //     { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+  //     { name: 'React', icon: <ReactIcon key="react" /> },
+  //   ],
+  //   github: 'https://github.com/ramxcodes/valorant-remastered',
+  //   live: 'https://valorant.ramx.in',
+  //   details: true,
+  //   projectDetailsPageSlug: '/projects/valorant-remastered',
+  //   isWorking: true,
+  // },
+  // {
+  //   title: 'That Startup',
+  //   description:
+  //     'Startup listing and pitching platform where entrepreneurs can submit ideas, vote on concepts, and connect with founders',
+  //   image: '/project/that-startup.png',
+  //   video: 'https://ik.imagekit.io/hokb3mrdr/that-startup.mp4',
+  //   link: 'https://that-startup.ramx.in/',
+  //   technologies: [
+  //     { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+  //     { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+  //     { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+  //     { name: 'Sanity', icon: <Sanity key="sanity" /> },
+  //     { name: 'Vercel', icon: <Vercel key="vercel" /> },
+  //   ],
+  //   github: 'https://github.com/ramxcodes/that-startup',
+  //   live: 'https://that-startup.ramx.in/',
+  //   details: true,
+  //   projectDetailsPageSlug: '/projects/that-startup',
+  //   isWorking: true,
+  // },
 ];
