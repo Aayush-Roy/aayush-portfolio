@@ -16,6 +16,7 @@ import PostgreSQL from '@/components/technologies/PostgreSQL';
 import Prisma from '@/components/technologies/Prisma';
 import ReactIcon from '@/components/technologies/ReactIcon';
 import Redis from '@/components/technologies/Redis';
+import Render from '@/components/technologies/Render';
 import Sanity from '@/components/technologies/Sanity';
 import Shadcn from '@/components/technologies/Shadcn';
 import SMTP from '@/components/technologies/SMTP';
@@ -26,6 +27,8 @@ import ThreeJs from '@/components/technologies/ThreeJs';
 import TypeScript from '@/components/technologies/TypeScript';
 import Vercel from '@/components/technologies/Vercel';
 import { Project } from '@/types/project';
+import PHP from './PHP';
+import PHPMailer from './PHPMailer';
 
 export const projects: Project[] = [
   {
@@ -180,6 +183,7 @@ export const projects: Project[] = [
       // { name: 'GitHub', icon: <Github key="github" /> },
       { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
       { name: 'SocketIo', icon: <SocketIo key="socket" /> },
+      {name:'Render', icon:<Render key="render"/>}
     ],
     github: 'https://github.com/ramxcodes/chill-guy',
     live: 'https://chillguy.ramx.in',
@@ -217,12 +221,9 @@ export const projects: Project[] = [
     // video: 'https://ik.imagekit.io/hokb3mrdr/intent.mp4',
     link: 'https://intent-js.ramx.in',
     technologies: [
-      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'React', icon: <ReactIcon key="react" /> },
-      { name: 'Motion', icon: <Motion key="motion" /> },
-      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
+      {name:"PHP", icon:<PHP key="php"/>},
+      {name:"PHP Mailer", icon:<PHPMailer key="php mailer"/>},
+      {name:"Hostinger", icon:<Hostinger key="hostinger"/>}
     ],
     github: 'https://github.com/ramxcodes/intent-js',
     live: 'https://intent-js.ramx.in',
