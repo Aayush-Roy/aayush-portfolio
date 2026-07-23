@@ -18,6 +18,7 @@ import ReactIcon from '@/components/technologies/ReactIcon';
 import Redis from '@/components/technologies/Redis';
 import Sanity from '@/components/technologies/Sanity';
 import Shadcn from '@/components/technologies/Shadcn';
+import SMTP from '@/components/technologies/SMTP';
 import SocketIo from '@/components/technologies/SocketIo';
 import Supabase from '@/components/technologies/Supabase';
 import TailwindCss from '@/components/technologies/TailwindCss';
@@ -83,7 +84,7 @@ export const projects: Project[] = [
     description:
   'Redesigned my first company website with stunning, animated UI components as a Full Stack Developer Intern',
     image: '/project/websitoz.png',
-    video: 'https://ik.imagekit.io/hokb3mrdr/pasandida.mp4',
+    // video: 'https://ik.imagekit.io/hokb3mrdr/pasandida.mp4',
     link: 'https://websitoz.in/',
     technologies: [
       { name: 'React.js', icon: <ReactIcon key="react" /> },
@@ -105,9 +106,12 @@ export const projects: Project[] = [
     link: 'https://mcp.ramx.in/',
     technologies: [
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      { name: 'Bun', icon: <Bun key="bun" /> },
-      { name: 'Vercel', icon: <Vercel key="vercel" /> },
-      { name: 'Appwrite', icon: <Appwrite key="appwrite" /> },
+      // { name: 'Bun', icon: <Bun key="bun" /> },
+      {name:"React", icon:<ReactIcon key="react"/>},
+      { name: 'Hostinger', icon: <Hostinger key="hostinger" /> },
+       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+      // { name: 'Appwrite', icon: <Appwrite key="appwrite" /> },
+      {name:'SMPTP', icon:<SMTP key="smtp"/>}
     ],
     github: 'https://github.com/ramxcodes/mcp-server',
     live: 'https://mcp.ramx.in/',
@@ -123,10 +127,12 @@ export const projects: Project[] = [
     // video: 'https://ik.imagekit.io/hokb3mrdr/syncify.mp4',
     link: 'https://thailandtourpackage.arnholidays.com/',
     technologies: [
-      { name: 'React', icon: <ReactIcon key="react" /> },
-      { name: 'Node.js', icon: <NodeJs key="nodejs" /> },
-      { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
+       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+      // { name: 'Bun', icon: <Bun key="bun" /> },
+      {name:"React", icon:<ReactIcon key="react"/>},
       { name: 'Hostinger', icon: <Hostinger key="hostinger" /> },
+      // { name: 'Appwrite', icon: <Appwrite key="appwrite" /> },
+      {name:'SMPTP', icon:<SMTP key="smtp"/>},
       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
       // { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
       // { name: 'Socket.io', icon: <SocketIo key="socketio" /> },
