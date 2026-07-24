@@ -27,5 +27,9 @@ export const navbarConfig = {
       label: 'Resume',
       href: '/resume',
     },
+    {
+      label: 'Certificates',
+      href: '/certificates',
+    },
   ] as NavItem[],
 };
