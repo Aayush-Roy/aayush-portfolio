@@ -35,14 +35,22 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
           />
           <div className="flex flex-col">
             <div className="flex items-center gap-2">
-              <h3
+              {/* <h3
                 className={cn(
                   'text-lg font-bold',
                   experience.isBlur ? 'blur-[5px]' : 'blur-none',
                 )}
               >
                 {experience.company}
-              </h3>
+              </h3> */}
+              <h3
+  className={cn(
+    'text-base font-bold sm:text-lg',
+    experience.isBlur ? 'blur-[5px]' : 'blur-none',
+  )}
+>
+  {experience.company}
+</h3>
               {experience.website && (
                 <Tooltip>
                   <TooltipTrigger asChild>

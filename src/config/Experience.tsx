@@ -79,9 +79,9 @@ export const experiences: Experience[] = [
         icon: <TypeScript />,
       },
       {
-        name: 'React',
+        name: 'PostgreSQL',
         href: 'https://react.dev/',
-        icon: <ReactIcon />,
+        icon: <PostgreSQL />,
       },
       {
         name: 'MongoDB',
@@ -92,11 +92,6 @@ export const experiences: Experience[] = [
         name: 'ExpressJs',
         href: 'https://figma.com/',
         icon: <ExpressJs/>,
-      },
-      {
-        name: 'Vercel',
-        href: 'https://vercel.com/',
-        icon: <Vercel />,
       },
       {
         name: 'Hostinger',
