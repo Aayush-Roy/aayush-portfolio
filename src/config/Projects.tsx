@@ -29,6 +29,7 @@ import Vercel from '@/components/technologies/Vercel';
 import { Project } from '@/types/project';
 import PHP from './PHP';
 import PHPMailer from './PHPMailer';
+import FramerMotion from '@/components/svgs/Framer';
 
 export const projects: Project[] = [
   {
@@ -118,6 +119,7 @@ Developed a full-stack corporate website for an engineering company using the ME
       { name: 'React.js', icon: <ReactIcon key="react" /> },
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
       { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+      {name:"Framer Motion", icon:<FramerMotion key="framer"/>},
       {name:"GSAP", icon:<GSAP key="gsap"/>}
     ],
     live: 'https://websitoz.in/',

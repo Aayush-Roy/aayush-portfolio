@@ -1,3 +1,4 @@
+import PhonePe from '@/components/svgs/PhonePe';
 import AWS from '@/components/technologies/AWS';
 import BootStrap from '@/components/technologies/BootStrap';
 import Bun from '@/components/technologies/Bun';
@@ -118,6 +119,11 @@ export const experiences: Experience[] = [
         name: 'Cloudinary',
         href: 'https://cloudinary.com/',
         icon: <Cloudinary />,
+      },
+      {
+        name: 'PhonePe PG',
+        href: 'https://cloudinary.com/',
+        icon: <PhonePe />,
       },
     ],
     website: 'https://infotechagency.com/',
