@@ -84,8 +84,9 @@ export const projects: Project[] = [
   },
    {
     title: 'Sikka Engineering Pvt. Ltd.',
-    description:
-  'Royal-heritage traditional clothing e-commerce platform with an admin dashboard for products, orders, coupons, and enquiries',
+     description: `Sikka Engineering – Corporate Website & Custom Admin Dashboard
+
+Developed a full-stack corporate website for an engineering company using the MERN stack. Built a custom admin dashboard to manage all dynamic website content, including services, projects, case studies, job postings, inquiries, news, and other CMS data. Implemented secure authentication, CRUD operations, file uploads, and a responsive admin interface, enabling non-technical users to update website content without modifying the codebase.`,
     image: '/project/sikka.png',
     // video: '/project/videos/sohwais.mp4',
     link: 'https://sikkaengineering.com/',
