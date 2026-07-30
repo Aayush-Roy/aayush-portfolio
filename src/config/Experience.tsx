@@ -19,6 +19,7 @@ import Prisma from '@/components/technologies/Prisma';
 import Razorpay from '@/components/technologies/Razorpay';
 import ReactIcon from '@/components/technologies/ReactIcon';
 import Redis from '@/components/technologies/Redis';
+import Supabase from '@/components/technologies/Supabase';
 import TailwindCss from '@/components/technologies/TailwindCss';
 import TypeScript from '@/components/technologies/TypeScript';
 import Vercel from '@/components/technologies/Vercel';
@@ -83,6 +84,11 @@ export const experiences: Experience[] = [
         href: 'https://react.dev/',
         icon: <PostgreSQL />,
       },
+       {
+        name: 'Supabase',
+        href: 'https://react.dev/',
+        icon: <Supabase />,
+      },
       {
         name: 'MongoDB',
         href: 'https://figma.com/',
@@ -97,6 +103,11 @@ export const experiences: Experience[] = [
         name: 'Hostinger',
         href: 'https://hostinger.com/',
         icon: <Hostinger/>,
+      },
+       {
+        name: 'Vercel',
+        href: 'https://hostinger.com/',
+        icon: <Vercel/>,
       },
       {
         name: 'Postman',
