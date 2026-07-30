@@ -83,6 +83,30 @@ export const projects: Project[] = [
     isWorking: true,
   },
    {
+    title: 'Sikka Engineering Pvt. Ltd.',
+    description:
+  'Royal-heritage traditional clothing e-commerce platform with an admin dashboard for products, orders, coupons, and enquiries',
+    image: '/project/sikka.png',
+    // video: '/project/videos/sohwais.mp4',
+    link: 'https://sikkaengineering.com/',
+    technologies: [
+      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+      { name: 'Hostinger', icon: <Hostinger key="hostinger" /> },
+      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+      // { name: 'MDX', icon: <MDXIcon key="mdx" /> },
+      { name: 'ExpressJs', icon: <ExpressJs key="express" /> },
+      { name: 'NodeJs', icon: <NodeJs key="nodejs" /> },
+      { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
+      {name:"Cloudinary", icon:<Cloudinary key="cloudinary"/>}
+    ],
+    // github: 'https://github.com/ramxcodes/the-quest',
+    live: 'https://sohwais.com/',
+    details: true,
+    projectDetailsPageSlug: '/projects/sohwais',
+    isWorking: true,
+  },
+   {
     title: 'Websitoz',
     description:
   'Redesigned my first company website with stunning, animated UI components as a Full Stack Developer Intern',
