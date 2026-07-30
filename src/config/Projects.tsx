@@ -104,7 +104,7 @@ Developed a full-stack corporate website for an engineering company using the ME
     // github: 'https://github.com/ramxcodes/the-quest',
     live: 'https://sohwais.com/',
     details: true,
-    projectDetailsPageSlug: '/projects/sohwais',
+    projectDetailsPageSlug: '/projects/sikka',
     isWorking: true,
   },
    {
