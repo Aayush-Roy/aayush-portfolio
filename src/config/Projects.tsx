@@ -249,8 +249,8 @@ Developed a full-stack corporate website for an engineering company using the ME
     link: 'https://intent-js.ramx.in',
     technologies: [
       {name:"Next.js", icon:<NextJs key="nextjs"/>},
-      {name:"PHP Mailer", icon:<PHPMailer key="php mailer"/>},
-      {name:"Hostinger", icon:<Hostinger key="hostinger"/>}
+      {name:"Hostinger", icon:<Hostinger key="hostinger"/>},
+      {name:"TailwindCSS", icon:<TailwindCss key="tailwindcss"/>}
     ],
     github: 'https://github.com/ramxcodes/intent-js',
     live: 'https://intent-js.ramx.in',
