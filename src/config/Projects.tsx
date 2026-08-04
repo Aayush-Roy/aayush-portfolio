@@ -250,7 +250,8 @@ Developed a full-stack corporate website for an engineering company using the ME
     technologies: [
       {name:"Next.js", icon:<NextJs key="nextjs"/>},
       {name:"Hostinger", icon:<Hostinger key="hostinger"/>},
-      {name:"TailwindCSS", icon:<TailwindCss key="tailwindcss"/>}
+      {name:"TailwindCSS", icon:<TailwindCss key="tailwindcss"/>},
+      {name:"GSAP", icon:<GSAP key="gsap"/>}
     ],
     github: 'https://github.com/ramxcodes/intent-js',
     live: 'https://intent-js.ramx.in',
