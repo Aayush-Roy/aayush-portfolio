@@ -258,6 +258,24 @@ Developed a full-stack corporate website for an engineering company using the ME
     projectDetailsPageSlug: '/projects/intent-js',
     isWorking: true,
   },
+   {
+    title: 'The Soni Jewellers',
+    description:
+      'Modern JavaScript library website with advanced animations, interactive playground, and comprehensive documentation',
+    image: '/project/nanny.png',
+    // video: 'https://ik.imagekit.io/hokb3mrdr/intent.mp4',
+    link: 'https://intent-js.ramx.in',
+    technologies: [
+      {name:"PHP", icon:<PHP key="php"/>},
+      {name:"PHP Mailer", icon:<PHPMailer key="php mailer"/>},
+      {name:"Hostinger", icon:<Hostinger key="hostinger"/>}
+    ],
+    github: 'https://github.com/ramxcodes/intent-js',
+    live: 'https://intent-js.ramx.in',
+    details: true,
+    projectDetailsPageSlug: '/projects/intent-js',
+    isWorking: true,
+  },
   // {
   //   title: 'Moonstone 2K25',
   //   description:
