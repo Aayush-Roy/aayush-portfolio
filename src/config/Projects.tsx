@@ -248,7 +248,7 @@ Developed a full-stack corporate website for an engineering company using the ME
     // video: 'https://ik.imagekit.io/hokb3mrdr/intent.mp4',
     link: 'https://intent-js.ramx.in',
     technologies: [
-      {name:"PHP", icon:<PHP key="php"/>},
+      {name:"Next.js", icon:<NextJs key="nextjs"/>},
       {name:"PHP Mailer", icon:<PHPMailer key="php mailer"/>},
       {name:"Hostinger", icon:<Hostinger key="hostinger"/>}
     ],
