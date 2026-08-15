@@ -127,6 +127,24 @@ Developed a full-stack corporate website for an engineering company using the ME
     projectDetailsPageSlug: '/projects/websitoz',
     isWorking: true, // Currently in development
   },
+   {
+  title: 'GrabYourCab',
+  description:
+    'Built and redesigned a full-service cab and car rental platform offering taxi bookings, self-drive rentals, luxury cars, group travel, and airport transfers across Delhi NCR, Goa, and Jewar Airport.',
+  image: '/project/gyc.png',
+  link: 'https://www.grabyourcab.com/',
+  technologies: [
+    { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+    { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+    { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+    { name: 'PostgreSQL', icon: <PostgreSQL key="postgreSQL" /> },
+    { name: 'Supabase', icon: <Supabase key="supabase" /> }
+  ],
+  live: 'https://www.grabyourcab.com/',
+  details: true,
+  projectDetailsPageSlug: '/projects/grabyourcab',
+  isWorking: true,
+},
   {
     title: 'ARN Holidays (Rajasthan)',
     description:
