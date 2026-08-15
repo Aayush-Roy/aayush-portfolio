@@ -138,11 +138,31 @@ Developed a full-stack corporate website for an engineering company using the ME
     { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
     { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
     { name: 'PostgreSQL', icon: <PostgreSQL key="postgreSQL" /> },
-    { name: 'Supabase', icon: <Supabase key="supabase" /> }
+    { name: 'Supabase', icon: <Supabase key="supabase" /> },
+    {name:"Vercel", icon:<Vercel key="vercel"/>}
   ],
   live: 'https://www.grabyourcab.com/',
   details: true,
   projectDetailsPageSlug: '/projects/grabyourcab',
+  isWorking: true,
+},
+ {
+  title: 'Soni Jewellers',
+  description:
+    'Built a premium jewellery website blending heritage-driven storytelling, immersive animations, product collections, and a modern luxury experience for Soni Jewellers.',
+  image: '/project/sj.png',
+   link: 'https://thesonijewellers.com/',
+  technologies: [
+    { name: 'Next.js', icon: <NextJs key="next" /> },
+    { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+    { name: 'Tailwind CSS', icon: <TailwindCss key="tailwind" /> },
+    { name: 'Framer Motion', icon: <FramerMotion key="framer" /> },
+    { name: 'Hostinger', icon: <Hostinger key="hostinger" /> },
+    { name: 'GSAP', icon: <GSAP key="gsap" /> }
+  ],
+  live: 'https://thesonijewellers.com',
+  details: true,
+  projectDetailsPageSlug: '/projects/soni-jewellers',
   isWorking: true,
 },
   {
@@ -158,6 +178,7 @@ Developed a full-stack corporate website for an engineering company using the ME
       {name:"React", icon:<ReactIcon key="react"/>},
       { name: 'Hostinger', icon: <Hostinger key="hostinger" /> },
        { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+       
       // { name: 'Appwrite', icon: <Appwrite key="appwrite" /> },
       {name:'SMPTP', icon:<SMTP key="smtp"/>}
     ],
