@@ -241,7 +241,7 @@ Developed a full-stack corporate website for an engineering company using the ME
     title: 'The Digital Certificate',
     description:
       'Modern JavaScript library website with advanced animations, interactive playground, and comprehensive documentation',
-    image: '/project/nanny.png',
+    image: '/project/digital.webp',
     // video: 'https://ik.imagekit.io/hokb3mrdr/intent.mp4',
     link: 'https://intent-js.ramx.in',
     technologies: [
