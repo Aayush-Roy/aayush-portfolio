@@ -173,7 +173,7 @@ Developed a full-stack corporate website for an engineering company using the ME
       'Model Context Protocol server for seamless Appwrite database operations with 7 powerful tools and 99.9% success rate',
     image: '/project/arn_rajasthan.png',
     // video: 'https://ik.imagekit.io/hokb3mrdr/appwrite.mp4',
-    link: 'https://rajasthantourpackage.arnholidays.com/',
+    link: 'https://rajasthantourpackage.arnholidays.com',
     technologies: [
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
       // { name: 'Bun', icon: <Bun key="bun" /> },
@@ -243,7 +243,7 @@ Developed a full-stack corporate website for an engineering company using the ME
       'Modern JavaScript library website with advanced animations, interactive playground, and comprehensive documentation',
     image: '/project/digital.webp',
     // video: 'https://ik.imagekit.io/hokb3mrdr/intent.mp4',
-    link: 'https://intent-js.ramx.in',
+    link: 'https://thedigitalsignaturecertificate.in/',
     technologies: [
       {name:"PHP", icon:<PHP key="php"/>},
       {name:"PHP Mailer", icon:<PHPMailer key="php mailer"/>},
@@ -284,7 +284,7 @@ Developed a full-stack corporate website for an engineering company using the ME
       'Personal poetry and blog platform featuring emotional stories, poems, and creative writing with dark/light theme support',
     image: '/project/socialsphere.png',
     // video: 'https://ik.imagekit.io/hokb3mrdr/ramspace.mp4',
-    link: 'https://blog.ramx.in/',
+    link: 'https://social-sphere-5q8e.vercel.app/',
     technologies: [
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
       { name: 'NextJS', icon: <NextJs key="next" /> },
@@ -306,7 +306,7 @@ Developed a full-stack corporate website for an engineering company using the ME
       'Modern JavaScript library website with advanced animations, interactive playground, and comprehensive documentation',
     image: '/project/nanny.png',
     // video: 'https://ik.imagekit.io/hokb3mrdr/intent.mp4',
-    link: 'https://intent-js.ramx.in',
+    link: 'https://nannyforbaby.thebabycareservices.com/',
     technologies: [
       {name:"Next.js", icon:<NextJs key="nextjs"/>},
       {name:"Hostinger", icon:<Hostinger key="hostinger"/>},
