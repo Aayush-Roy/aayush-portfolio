@@ -173,7 +173,7 @@ Developed a full-stack corporate website for an engineering company using the ME
       'Model Context Protocol server for seamless Appwrite database operations with 7 powerful tools and 99.9% success rate',
     image: '/project/arn_rajasthan.png',
     // video: 'https://ik.imagekit.io/hokb3mrdr/appwrite.mp4',
-    link: 'https://mcp.ramx.in/',
+    link: 'https://rajasthantourpackage.arnholidays.com/',
     technologies: [
       { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
       // { name: 'Bun', icon: <Bun key="bun" /> },
