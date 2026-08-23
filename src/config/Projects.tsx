@@ -261,7 +261,7 @@ Developed a full-stack corporate website for an engineering company using the ME
     description:
       'AI-powered GitHub profile roaster with intelligent analysis, witty commentary, and social sharing features',
     image: '/project/meetzy.png',
-    link: 'https://chillguy.ramx.in',
+    link: 'https://meetzyfe.onrender.com/',
     technologies: [
       { name: 'React', icon: <ReactIcon key="react" /> },
       { name: 'Express.js', icon: <ExpressJs key="expressjs" /> },
