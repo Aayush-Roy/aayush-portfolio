@@ -32,6 +32,7 @@ import PHPMailer from './PHPMailer';
 import FramerMotion from '@/components/svgs/Framer';
 import CSS from '@/components/technologies/CSS';
 import BootStrap from '@/components/technologies/BootStrap';
+import PhonePe from '@/components/svgs/PhonePe';
 
 export const projects: Project[] = [
   {
@@ -146,6 +147,28 @@ Developed a full-stack corporate website for an engineering company using the ME
   live: 'https://www.grabyourcab.com/',
   details: true,
   projectDetailsPageSlug: '/projects/grabyourcab',
+  isWorking: true,
+},
+{
+  title: 'Shuddhik',
+  description:
+    'Built a full-stack single-product e-commerce platform with a Next.js storefront, Node.js and Express backend, secure PhonePe payment integration, Cloudinary-powered product media management, and a React-based admin dashboard for product CRUD, user management, reviews, and order management. Integrated Shiprocket API to automatically push confirmed orders for shipping and fulfillment.',
+  image: '/project/shuddhik.png',
+  link: 'https://shuddhik.com/',
+  technologies: [
+    { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+    { name: 'React.js', icon: <ReactIcon key="react" /> },
+    { name: 'Node.js', icon: <NodeJs key="nodejs" /> },
+    { name: 'Express.js', icon: <ExpressJs key="express" /> },
+    { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
+    { name: 'Cloudinary', icon: <Cloudinary key="cloudinary" /> },
+    { name: 'PhonePe PG', icon: <PhonePe key="phonepe" /> },
+    // { name: 'Shiprocket API', icon: <Shiprocket key="shiprocket" /> },
+    { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+  ],
+  live: 'https://shuddhik.com/',
+  details: true,
+  projectDetailsPageSlug: '/projects/shuddhik',
   isWorking: true,
 },
  {
