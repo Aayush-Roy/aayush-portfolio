@@ -33,6 +33,9 @@ import FramerMotion from '@/components/svgs/Framer';
 import CSS from '@/components/technologies/CSS';
 import BootStrap from '@/components/technologies/BootStrap';
 import PhonePe from '@/components/svgs/PhonePe';
+import Shiprocket from '@/components/technologies/Shiprocket';
+// import Shiprocket from '@/components/technologies/Shiprocket';
+
 
 export const projects: Project[] = [
   {
@@ -163,7 +166,8 @@ Developed a full-stack corporate website for an engineering company using the ME
     { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
     { name: 'Cloudinary', icon: <Cloudinary key="cloudinary" /> },
     { name: 'PhonePe PG', icon: <PhonePe key="phonepe" /> },
-    // { name: 'Shiprocket API', icon: <Shiprocket key="shiprocket" /> },
+    { name: 'Shiprocket API', icon: <Shiprocket key="shiprocket" /> },
+          { name: 'Hostinger', icon: <Hostinger key="hostinger" /> },
     { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
   ],
   live: 'https://shuddhik.com/',
