@@ -211,7 +211,7 @@ Developed a full-stack corporate website for an engineering company using the ME
   ],
   live: 'https://healactionphysiotherapy.in/',
   details: true,
-  projectDetailsPageSlug: '/projects/heal-action-physiotherapy',
+  projectDetailsPageSlug: '/projects/heal-action',
   isWorking: true,
 },
 
