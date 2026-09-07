@@ -194,6 +194,27 @@ Developed a full-stack corporate website for an engineering company using the ME
   projectDetailsPageSlug: '/projects/soni-jewellers',
   isWorking: true,
 },
+
+{
+  title: 'Heal Action Physiotherapy',
+  description:
+    'A professional physiotherapy website built for Heal Action Physiotherapy, featuring a responsive UI, service-focused pages, appointment enquiry functionality, WhatsApp integration, and PHP Mailer-powered email communication.',
+  image: '/project/heal.png',
+  link: 'https://healactionphysiotherapy.in/',
+  technologies: [
+    { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+    { name: 'PHP Mailer', icon: <PHPMailer key="phpmailer" /> },
+    // { name: 'WhatsApp API', icon: <WhatsApp key="whatsapp" /> },
+    { name: 'Hostinger', icon: <Hostinger key="hostinger" /> },
+        { name: 'Tailwind CSS', icon: <TailwindCss key="tailwind" /> },
+         { name: 'Framer Motion', icon: <FramerMotion key="framer" /> },
+  ],
+  live: 'https://healactionphysiotherapy.in/',
+  details: true,
+  projectDetailsPageSlug: '/projects/heal-action-physiotherapy',
+  isWorking: true,
+},
+
   {
     title: 'ARN Holidays (Rajasthan)',
     description:
@@ -243,27 +264,27 @@ Developed a full-stack corporate website for an engineering company using the ME
   },
  
  
-  {
-    title: 'Refokus',
-    description:
-      "Comprehensive event management platform for college festivals and hackathons built for NMIMS'24 Hackathon",
-    image: '/project/refokus.png',
-    // video: 'https://ik.imagekit.io/hokb3mrdr/fest-x.mp4',
-    link: 'hhttps://refokus.vercel.app/',
-    technologies: [
-      { name: 'Next.js', icon: <NextJs key="nextjs" /> },
-      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
-      // { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
-      { name: 'Vercel', icon: <Vercel key="vercel" /> },
-      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
-      { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
-    ],
-    // github: 'https://github.com/ramxcodes/fest-x',
-    live: 'https://fest-x.ramx.in/',
-    details: true,
-    projectDetailsPageSlug: '/projects/fest-x',
-    isWorking: true,
-  },
+{
+  title: 'Refokus',
+  description:
+    'A pixel-perfect Refokus clone built with React.js, featuring smooth GSAP animations, Locomotive Scroll-powered interactions, and Framer Motion for a highly interactive and immersive user experience.',
+  image: '/project/refokus.png',
+  // video: 'https://ik.imagekit.io/hokb3mrdr/fest-x.mp4',
+  link: 'https://refokus.vercel.app/',
+  technologies: [
+    { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+    { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+    // { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
+    { name: 'Vercel', icon: <Vercel key="vercel" /> },
+    { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+    { name: 'shadcn/ui', icon: <Shadcn key="shadcn" /> },
+  ],
+  // github: 'https://github.com/ramxcodes/fest-x',
+  live: 'https://refokus.vercel.app/',
+  details: true,
+  projectDetailsPageSlug: '/projects/refokus',
+  isWorking: true,
+},
   {
     title: 'The Digital Certificate',
     description:
