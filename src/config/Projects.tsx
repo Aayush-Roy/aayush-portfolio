@@ -109,11 +109,38 @@ Developed a full-stack corporate website for an engineering company using the ME
       {name:"Cloudinary", icon:<Cloudinary key="cloudinary"/>}
     ],
     // github: 'https://github.com/ramxcodes/the-quest',
-    live: 'https://sohwais.com/',
+    live: 'https://sikkaengineering.com/',
     details: true,
     projectDetailsPageSlug: '/projects/sikka',
     isWorking: true,
   },
+  {
+  title: 'Being AV',
+  description: `Being AV – Full-Stack Website, CMS & Inquiry CRM
+
+Developed a full-stack business website for Being AV using Next.js, TypeScript, Node.js, Express.js, and MongoDB. Built a custom React-based admin dashboard that works as a CMS and CRM, allowing non-technical users to manage the entire website without modifying the codebase.
+
+The CMS manages dynamic content across the website, including the home page, product sections, banners, blogs, about pages, services, and other website content. Implemented complete CRUD functionality, secure authentication, image and media uploads through Cloudinary, and dynamic content rendering on the frontend.
+
+Also developed an inquiry management system within the admin dashboard to capture, manage, track, and organize customer inquiries from the website, providing a centralized workflow for handling leads and customer requests.`,
+  image: '/project/beingav_mockup.png',
+  link: 'https://beingav.com/',
+  technologies: [
+    { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+    { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+    { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+    { name: 'React', icon: <ReactIcon key="react" /> },
+    { name: 'ExpressJs', icon: <ExpressJs key="expressjs" /> },
+    { name: 'NodeJs', icon: <NodeJs key="nodejs" /> },
+    { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
+     { name: 'Hostinger', icon: <Hostinger key="hostinger" /> },
+    { name: 'Cloudinary', icon: <Cloudinary key="cloudinary" /> },
+  ],
+  live: 'https://beingav.com/',
+  details: true,
+  projectDetailsPageSlug: '/projects/being-av',
+  isWorking: true,
+},
    {
     title: 'Websitoz',
     description:
