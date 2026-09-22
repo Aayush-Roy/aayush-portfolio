@@ -34,6 +34,7 @@ import CSS from '@/components/technologies/CSS';
 import BootStrap from '@/components/technologies/BootStrap';
 import PhonePe from '@/components/svgs/PhonePe';
 import Shiprocket from '@/components/technologies/Shiprocket';
+import Cloudflare from '@/components/technologies/Cloudflare';
 // import Shiprocket from '@/components/technologies/Shiprocket';
 
 
@@ -201,6 +202,26 @@ Also developed an inquiry management system within the admin dashboard to captur
   details: true,
   projectDetailsPageSlug: '/projects/shuddhik',
   isWorking: true,
+},
+{
+    title: 'Arotahi Tech',
+    description: `Arotahi Tech – NZ-based Agentic AI & BPO Company Website
+Built the corporate website for Arotahi, a Wellington-based technology and business services company (a subsidiary of Entelect) that blends BPO capabilities with Agentic AI, automation, and human-like voice customer engagement. The site communicates their "Human + AI" operating model across customer experience, sales operations, workflow automation, and digital growth services.`,
+    image: '/project/arotahi.png',
+    // video: '/project/videos/arotahi.mp4',
+    link: 'https://arotahitech.nz/',
+    technologies: [
+      { name: 'React', icon: <ReactIcon key="react" /> },
+      { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+      { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+      { name: 'Framer Motion', icon: <FramerMotion key="framer" /> },
+      { name: 'Cloudflare', icon: <Cloudflare key="cloudflare" /> },
+    ],
+    // github: 'https://github.com/your-username/arotahi',
+    live: 'https://arotahitech.nz/',
+    details: true,
+    projectDetailsPageSlug: '/projects/arotahi',
+    isWorking: true,
 },
  {
   title: 'Soni Jewellers',
