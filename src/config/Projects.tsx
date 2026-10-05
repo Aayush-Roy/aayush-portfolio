@@ -223,6 +223,31 @@ Built the corporate website for Arotahi, a Wellington-based technology and busin
     projectDetailsPageSlug: '/projects/arotahi',
     isWorking: true,
 },
+{
+  title: 'CLAT Scholars',
+  description: `CLAT Scholars – Comprehensive CLAT Preparation & Legal Entrance Coaching Platform
+Built the website for CLAT Scholars, an education platform focused on CLAT and other law entrance exam preparation. The website presents their courses, study resources, expert guidance, test preparation programs, and student-focused learning experience in a modern and engaging interface.`,
+  image: '/project/clatscholars.png',
+  // video: '/project/videos/clatscholars.mp4',
+  link: 'https://clatscholars.com/',
+  technologies: [
+    { name: 'NextJs', icon: <NextJs key="react" /> },
+    { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+    { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+    { name: 'Framer Motion', icon: <FramerMotion key="framer" /> },
+    { name: 'ExpressJs', icon: <ExpressJs key="expressjs" /> },
+    { name: 'NodeJs', icon: <NodeJs key="nodejs" /> },
+    { name: 'MongoDB', icon: <MongoDB key="mongodb" /> },
+     { name: 'Hostinger', icon: <Hostinger key="hostinger" /> },
+    { name: 'Cloudinary', icon: <Cloudinary key="cloudinary" /> },
+  ],
+  // github: 'https://github.com/your-username/clat-scholars',
+  live: 'https://clatscholars.com/',
+  details: true,
+  projectDetailsPageSlug: '/projects/clat-scholars',
+  isWorking: true,
+},
+
  {
   title: 'Soni Jewellers',
   description:
