@@ -180,6 +180,26 @@ Also developed an inquiry management system within the admin dashboard to captur
   projectDetailsPageSlug: '/projects/grabyourcab',
   isWorking: true,
 },
+
+{
+  title: 'Astomar Construction',
+  description:
+    'Developed and deployed a professional construction company website showcasing construction services, company expertise, completed projects, and business information. Designed a responsive user interface with modern layouts, intuitive navigation, and a polished visual experience to establish a strong digital presence and help potential clients explore the company’s offerings.',
+  image: '/project/astomar.png',
+  link: 'https://astomarconstruction.com/',
+  technologies: [
+    { name: 'React.js', icon: <ReactIcon key="react" /> },
+    { name: 'Next.js', icon: <NextJs key="nextjs" /> },
+    { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+    { name: 'Hostinger', icon: <Hostinger key="hostinger" /> },
+  ],
+  live: 'https://astomarconstruction.com/',
+  details: true,
+  projectDetailsPageSlug: '/projects/astomar-construction',
+  isWorking: true,
+},
+
+
 {
   title: 'Shuddhik',
   description:
