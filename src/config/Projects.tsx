@@ -244,6 +244,26 @@ Built the corporate website for Arotahi, a Wellington-based technology and busin
     isWorking: true,
 },
 {
+  title: 'Entelect – AI-Powered BPO & Customer Experience Platform',
+  description: `Entelect – AI-Powered BPO & Business Solutions Website
+Built a modern corporate website for Entelect, a business services company specializing in AI-powered customer support, sales outsourcing, and contact center solutions. The platform showcases its blend of human expertise and intelligent automation through Generative AI, chatbots, voice bots, automated calling, real-time analytics, CRM/LMS platforms, and AI-assisted workflows. Designed to communicate the company's capabilities in customer experience optimization, lead generation, sales growth, and scalable business operations.`,
+  image: '/project/entelect.png',
+  // video: '/project/videos/entelect.mp4',
+  link: 'https://entelect.in/',
+  technologies: [
+    { name: 'React', icon: <ReactIcon key="react" /> },
+    { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+    { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+    { name: 'Framer Motion', icon: <FramerMotion key="framer" /> },
+    { name: 'Cloudflare', icon: <Cloudflare key="cloudflare" /> },
+  ],
+  // github: 'https://github.com/your-username/entelect',
+  live: 'https://entelect.in/',
+  details: true,
+  projectDetailsPageSlug: '/projects/entelect',
+  isWorking: true,
+},
+{
   title: 'CLAT Scholars',
   description: `CLAT Scholars – Comprehensive CLAT Preparation & Legal Entrance Coaching Platform
 Built the website for CLAT Scholars, an education platform focused on CLAT and other law entrance exam preparation. The website presents their courses, study resources, expert guidance, test preparation programs, and student-focused learning experience in a modern and engaging interface.`,
