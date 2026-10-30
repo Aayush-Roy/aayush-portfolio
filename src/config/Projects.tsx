@@ -223,6 +223,26 @@ Also developed an inquiry management system within the admin dashboard to captur
   projectDetailsPageSlug: '/projects/shuddhik',
   isWorking: true,
 },
+
+{
+  title: 'Sri Sai Realtors',
+  description: `Sri Sai Realtors – Integrated Interior Fit-Out & Furniture Solutions Website
+Built the corporate website for Sri Sai Realtors, an India-based interior fit-out company (est. 2018) delivering end-to-end commercial, corporate, retail, aviation and warehousing projects, backed by in-house furniture manufacturing and civil & MEP capabilities. The site presents their capabilities, selected work for brands like Air India, IndiGo, Blinkit and Zepto, their BCAS-cleared airport experience, and a structured Plan → Procure → Manufacture → Execute → Inspect → Install → Handover process, with clear lead-generation CTAs across WhatsApp, call and contact form.`,
+  image: '/project/sri_sai_mockup.png',
+  link: 'https://srisai.org.in/',
+  technologies: [
+    { name: 'NextJs', icon: <NextJs key="nextjs" /> },
+    { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+    { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+    { name: 'Framer Motion', icon: <FramerMotion key="framer" /> },
+    { name: 'Cloudflare', icon: <Cloudflare key="cloudflare" /> },
+  ],
+  live: 'https://srisai.org.in/',
+  details: true,
+  projectDetailsPageSlug: '/projects/sri-sai-realtors',
+  isWorking: true,
+},
+
 {
     title: 'Arotahi Tech',
     description: `Arotahi Tech – NZ-based Agentic AI & BPO Company Website
@@ -327,7 +347,23 @@ Built the website for CLAT Scholars, an education platform focused on CLAT and o
   projectDetailsPageSlug: '/projects/heal-action',
   isWorking: true,
 },
-
+{
+  title: 'The Laziz Tiffin Service',
+  description: `The Laziz Tiffin Service – Home-Style Tiffin Meals Website
+Built the website for The Laziz Tiffin Service, a small home-style tiffin business offering pure veg lunch, dinner and breakfast meals. The site focuses on a simple, direct-enquiry flow: visitors explore meal options, then call or WhatsApp the kitchen directly with pre-filled messages, with no app, checkout or middleman. Includes a "Find Tiffin" page, a clear 3-step "How It Works" section, and SEO-optimised metadata for local discovery.`,
+  image: '/project/laziz_tiffin_mockup.png',
+  link: 'https://thelaziztiffinservices.in/',
+  technologies: [
+    { name: 'NextJs', icon: <NextJs key="nextjs" /> },
+    { name: 'TypeScript', icon: <TypeScript key="typescript" /> },
+    { name: 'Tailwind CSS', icon: <TailwindCss key="tailwindcss" /> },
+    { name: 'Framer Motion', icon: <FramerMotion key="framer" /> },
+  ],
+  live: 'https://thelaziztiffinservices.in/',
+  details: true,
+  projectDetailsPageSlug: '/projects/laziz-tiffin-service',
+  isWorking: true,
+},
   {
     title: 'ARN Holidays (Rajasthan)',
     description:
